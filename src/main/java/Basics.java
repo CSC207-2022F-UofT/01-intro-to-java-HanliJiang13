@@ -149,7 +149,7 @@ public class Basics {
         StringBuilder ret = new StringBuilder();
 
         // Fill in the rest of the body here
-        String [] arr = to_split.split(' ');
+        char [] arr = to_split.split(' ');
         for (String i : arr) {
             ret.append(i);
         }
