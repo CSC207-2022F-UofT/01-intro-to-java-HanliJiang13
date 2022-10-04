@@ -152,7 +152,7 @@ public class Basics {
         
         String [] arr = to_split.split(" ");
         for (String i : arr)
-            ret.append(i)
+            ret.append(i);
         return ret.toString();
     }
 
