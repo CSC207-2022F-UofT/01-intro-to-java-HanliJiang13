@@ -150,7 +150,7 @@ public class Basics {
 
         // Fill in the rest of the body here
         
-        for (String i : to_split.split(' ')) {
+        for (char i : to_split.split(' ')) {
             ret.append(i);
         }
         return ret.toString();
