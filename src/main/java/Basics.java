@@ -150,9 +150,9 @@ public class Basics {
 
         // Fill in the rest of the body here
         
-        for (char i : to_split.split(' ')) {
-            ret.append(i);
-        }
+        String [] arr = to_split.split(" ");
+        for (String i : arr)
+            ret.append(i)
         return ret.toString();
     }
 
