@@ -149,8 +149,8 @@ public class Basics {
         StringBuilder ret = new StringBuilder();
 
         // Fill in the rest of the body here
-        char [] arr = to_split.split(' ');
-        for (String i : arr) {
+        
+        for (String i : to_split.split(' ')) {
             ret.append(i);
         }
         return ret.toString();
