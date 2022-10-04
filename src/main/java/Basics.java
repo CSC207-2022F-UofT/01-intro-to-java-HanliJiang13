@@ -102,7 +102,7 @@ public class Basics {
          * Current count: 0
          */
         for (int i = 10; i >= 0; i = i - 1){
-            System.out.println("Current count: " + i)
+            System.out.println("Current count: " + i);
             
         }
             
@@ -149,7 +149,8 @@ public class Basics {
         StringBuilder ret = new StringBuilder();
 
         // Fill in the rest of the body here
-        for i in to_split.split(' '){
+        String [] arr = to_split.split(' ');
+        for i in arr(' '){
             ret.append(i);
         }
         
