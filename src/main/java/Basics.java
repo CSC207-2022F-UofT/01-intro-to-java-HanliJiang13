@@ -172,7 +172,7 @@ public class Basics {
      */
     public static int oddSum(int[] arr) {
         int current_sum = 0;
-        int i = 1
+        int i = 1;
         /* TODO (Task 5): Complete this method body using a for-loop.
          *                You can find the length of an array by using the
          *                .length attribute (e.g. arr.length)
